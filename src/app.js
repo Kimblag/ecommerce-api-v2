@@ -22,7 +22,7 @@ var routesArray = ["/signin", "/", "/signup"];
 app.use(
   routesArray,
   session({
-    name: "session",
+    name: "sessionCookie",
     key: "express.sessionID",
     secret: process.env.COOKIE_KEY,
     resave: true,
