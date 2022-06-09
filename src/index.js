@@ -18,7 +18,7 @@ async function main() {
       .authenticate()
       .then(() => console.log("success"))
       .catch((e) => console.log(e));
-    await sequelize.sync({ force: true });
+    await sequelize.sync({ force: false });
     app.listen(process.env.PORT || 3001, async () => {
       await seedBrand();
       await seedSize();
