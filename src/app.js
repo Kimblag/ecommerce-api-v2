@@ -44,7 +44,7 @@ app.use(
 );
 
 let ALLOWED_ORIGINS = [
-  "https://e-commerce-five-mu.vercel.app/",
+  "https://e-commerce-five-mu.vercel.app",
   "https://admin-henryshoes.vercel.app",
 ];
 

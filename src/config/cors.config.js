@@ -1,6 +1,6 @@
 const whitelist = [
   "http://127.0.0.1:3000",
-  "https://e-commerce-five-mu.vercel.app/",
+  "https://e-commerce-five-mu.vercel.app",
   "https://admin-henryshoes.vercel.app",
 ];
 // const methods = ["GET", "POST", "OPTIONS", "PUT", "DELETE"];
