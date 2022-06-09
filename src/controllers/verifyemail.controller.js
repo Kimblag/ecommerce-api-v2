@@ -9,10 +9,10 @@ export const verifyEmail = async (req, res, next) => {
     if (user) {
       user.isVerified = true;
       await user.save();
-      res.status(200).redirect("https://client-henryshoes.vercel.app/profile"); //!Luego sera al profile
+      res.status(200).redirect("https://e-commerce-five-mu.vercel.app/profile"); //!Luego sera al profile
       console.log("Email verified");
     } else {
-      res.redirect("https://client-henryshoes.vercel.app");
+      res.redirect("https://e-commerce-five-mu.vercel.app");
       console.log("Email is not verified");
     }
   } catch (error) {
